@@ -1,0 +1,200 @@
+h2 {
+  color: rgb(0, 0, 0);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 40;
+  text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 50;
+    text-align: center;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 90;
+    text-align: center;
+}
+
+pre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 90;
+    text-align: center;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+.column {
+    width: 100%;
+}
+
+
+.title {
+    font-size: large;
+}
+
+button {
+    background-color:rgb(197, 87, 201);
+    border: .5px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px;
+  }
+
+ /* Navbar  */
+ .navbar {
+    overflow: hidden;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+   /* Dropdown */
+   .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+    /* Links inside the navbar */
+    .navbar b {
+      float: left;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 16px;
+      font-weight: 50;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+  /* Dropdown */
+  .dropdown2 {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  .dropdown .dropbtn {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    border-radius: 10px;
+    background-color: rgb(197, 87, 201);
+  }
+
+  /* Dropdown content */
+  .dropdown-content {
+    display: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links in dropdown */
+  .dropdown-content a {
+    float: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: rgb(246, 177, 255);
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgba(255, 168, 243, 0.829);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+    /* Dropdown */
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+  /* Dropdown button 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+  .dropdown2 .dropbtn2 {
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: rgb(0, 0, 0);
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit; 
+      margin: 0;
+    }
+  
+    .navbar b:hover, .dropdown2:hover .dropbtn2 {
+      border-radius: 10px;
+      background-color: rgb(197, 87, 201);
+    }
+  
+  /* Dropdown content */
+  .dropdown-content2 {
+      display: none;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      position: absolute;
+      background-color: transparent;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links in dropdown */
+    .dropdown-contents2 b {
+      float: none;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color: rgb(255, 255, 255);
+      padding: 12px 16px;
+      text-decoration: rgb(246, 177, 255);
+      display: block;
+      text-align: center;
+    }
+    
+    .dropdown-content2 b:hover {
+      background-color: rgba(255, 168, 243, 0.829);
+    }
+    
+    .dropdown2:hover .dropdown-content2 {
+      display: block;
+    } 
+
+     /* Dropdown */
+     .dropdown2 {
+      float: left;
+      overflow: hidden;
+    }
